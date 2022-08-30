@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\content\site.css" />
+    <None Include="wwwroot\Images\candyshoplogo.png" />
+    <None Include="wwwroot\Images\carousel1.jpg" />
+    <None Include="wwwroot\Images\carousel2.jpg" />
+    <None Include="wwwroot\Images\carousel3.jpg" />
+    <None Include="wwwroot\Images\chocolateCandy.jpg" />
+    <None Include="wwwroot\Images\chocolateCandy2.jpg" />
+    <None Include="wwwroot\Images\chocolateCandy3.jpg" />
+    <None Include="wwwroot\Images\FruitCandy.jpg" />
+    <None Include="wwwroot\Images\fruitCandy2.jpg" />
+    <None Include="wwwroot\Images\fruitCandy3.jpg" />
+    <None Include="wwwroot\Images\gummyCandy.jpg" />
+    <None Include="wwwroot\Images\gummyCandy2.jpg" />
+    <None Include="wwwroot\Images\gummyCandy3.jpg" />
+    <None Include="wwwroot\Images\halloweenCandy.jpg" />
+    <None Include="wwwroot\Images\halloweenCandy2.jpg" />
+    <None Include="wwwroot\Images\halloweenCandy3.jpg" />
+    <None Include="wwwroot\Images\hardCandy.jpg" />
+    <None Include="wwwroot\Images\hardCandy2.jpg" />
+    <None Include="wwwroot\Images\hardCandy3.jpg" />
+    <None Include="wwwroot\Images\pattern.png" />
+    <None Include="wwwroot\Images\thumbnails\chocolateCandy-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\chocolateCandy2-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\chocolateCandy3-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\FruitCandy-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\fruitCandy2-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\fruitCandy3-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\gummyCandy-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\gummyCandy2-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\gummyCandy3-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\halloweenCandy-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\halloweenCandy2-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\halloweenCandy3-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\hardCandy-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\hardCandy2-small.jpg" />
+    <None Include="wwwroot\Images\thumbnails\hardCandy3-small.jpg" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-theme.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-theme.min.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\js\npm.js" />
+    <None Include="wwwroot\lib\jquery\core.js" />
+    <None Include="wwwroot\lib\jquery\jquery.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.js" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.slim.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.28">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.28">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
